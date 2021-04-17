@@ -38,7 +38,7 @@ PTCGFlipCoin.repeatUntil(.tail) // => e.g. [.heads, .heads, .tail]
 
 ### Array\<PTCGFlipCoin>.reducedFlipSummary() -> PTCGFlipCoinSummary
 
-コインを投げた結果の配列から、表と裏それぞれを合わせたサマリーを返す
+コインを投げた結果の配列から、表と裏それぞれを合わせたサマリーを返します
 
 ```swift
 let result: Array<PTCGFlipCoin> = [.tail, .heads, .tail, .tail]
