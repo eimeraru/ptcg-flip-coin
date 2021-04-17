@@ -20,7 +20,7 @@
 PTCGFlipCoin.flip() // => .heads or .tail
 ```
 
-### PTCGFlipCoin.repeatWith()
+### PTCGFlipCoin.repeatWith(Int)
 
 指定した数だけ繰り返しコインを投げ、その結果をまとめて返します
 
