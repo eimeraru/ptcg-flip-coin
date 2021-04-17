@@ -33,5 +33,5 @@ PTCGFlipCoin.repeatWith(3) // => e.g. [.heads, .tail, .heads]
 指定したコインの向きが出るまで繰り返しコインを投げ、その結果をまとめて返します
 
 ```swift
-PTCGFlipCoin.repeatWith(.tail) // => e.g. [.heads, .heads, .tail]
+PTCGFlipCoin.repeatUntil(.tail) // => e.g. [.heads, .heads, .tail]
 ```
