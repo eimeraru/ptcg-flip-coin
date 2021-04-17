@@ -35,3 +35,12 @@ PTCGFlipCoin.repeatWith(3) // => e.g. [.heads, .tail, .heads]
 ```swift
 PTCGFlipCoin.repeatUntil(.tail) // => e.g. [.heads, .heads, .tail]
 ```
+
+### Array<PTCGFlipCoin>.reducedFlipSummary() -> PTCGFlipCoinSummary
+
+```swift
+let result: Array<PTCGFlipCoin> = [.tail, .heads, .tail, .tail]
+let summary = result.reducedFlipSummary()
+summary.headsCount // => 1
+summary.tailCount  // => 3
+```
