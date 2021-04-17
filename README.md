@@ -38,8 +38,10 @@ PTCGFlipCoin.repeatUntil(.tail) // => e.g. [.heads, .heads, .tail]
 
 ### Array<PTCGFlipCoin>.reducedFlipSummary() -> PTCGFlipCoinSummary
 
+コインを投げた結果の配列から、表と裏それぞれを合わせたサマリーを返す
+
 ```swift
-let result: Array<PTCGFlipCoin> = [.tail, .heads, .tail, .tail]
+let result: Array\<PTCGFlipCoin> = [.tail, .heads, .tail, .tail]
 let summary = result.reducedFlipSummary()
 summary.headsCount // => 1
 summary.tailCount  // => 3
